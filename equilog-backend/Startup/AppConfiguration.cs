@@ -55,6 +55,7 @@ public class AppConfiguration
                         .AllowAnyMethod()
                         .AllowAnyHeader();
                     // This is a comment.
+                    // This is a comment.
                 });
         });
     }

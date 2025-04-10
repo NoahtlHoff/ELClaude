@@ -54,6 +54,7 @@ public class AppConfiguration
                     policy.WithOrigins("http://localhost:63343")
                         .AllowAnyMethod()
                         .AllowAnyHeader();
+                    // This is a comment.
                 });
         });
     }

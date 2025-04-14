@@ -23,4 +23,5 @@ public class EquilogDbContext(DbContextOptions<EquilogDbContext> options)
     public DbSet<UserCalendarEvent> UserCalendarEvents { get; set; }
     
     public DbSet<StablePost> StablePosts { get; set; }
+    public DbSet<AuthUser> AuthUsers { get; set; }
 }
